@@ -102,7 +102,7 @@ class MainActivity : AppCompatActivity() {
                     updateUI(" >= 2.9Mb"," Able to stream HD", (bytesPerSecond/1000).toString());
                 }else{
                     Log.d("TAG 1", "Regular streaming support")
-                    updateUI(" < 2.9Mb","Regular streaming support", (bytesPerSecond/1000).toString());
+                    updateUI(" < 2.9Mb","You can stream regular content, not HD, HDR, 4K", (bytesPerSecond/1000).toString());
                 }
             }
         })
